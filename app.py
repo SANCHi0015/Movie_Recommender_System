@@ -1,6 +1,5 @@
 import streamlit as st
 import pickle
-import bz2file as bz2
 import pandas as pd
 
 # Load pre-trained recommender model and movie data
