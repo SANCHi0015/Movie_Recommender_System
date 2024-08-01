@@ -42,7 +42,7 @@ if st.button('Recommend'):
         j = 1
         for movie in recommendations:
             st.write(j , movie)
-            j =+ 1
+            j += 1
     else:
         st.write('No recommendations found. Please try a different movie.')
 
